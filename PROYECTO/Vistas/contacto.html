@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SantyFashion</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Santy<b>Fashion</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li class="dropdown">
+                            <a href="catalogo.html" class="dropbtn">Productos</a>
+                            <div class="dropdown-content">
+                                <a href="blusas.html">Blusas</a>
+                                <a href="jeans.html">Jeans</a>
+                                <a href="enterizos.html">Enterizos</a>
+                                <a href="vestidos.html">Vestidos</a>
+                                <a href="bodys.html">Bodys</a>
+                                <a href="leggins.html">Leggins</a>
+                            </div>
+                        </li>
+                        <li class="menu-selected"><a href="contacto.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Contacto</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="vestidos.html"><i class="fas fa-search"></i>Vestidos</a></li>
+        <li><a href="blusas.html"><i class="fas fa-search"></i>Blusas</a></li>
+        <li><a href="bodys.html"><i class="fas fa-search"></i>Bodys</a></li>
+        <li><a href="jeans.html"><i class="fas fa-search"></i>Jeans</a></li>
+        <li><a href="enterizos.html"><i class="fas fa-search"></i>Enterizos</a></li>
+        <li><a href="leggins.html"><i class="fas fa-search"></i>Leggins</a></li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+    <main>
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <div class="container-footer">    
+
+        <footer>
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>© 2023 SantyFashion - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
